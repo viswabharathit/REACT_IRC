@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<header>
+    <nav>
+      <ul>
+        <li><a href="react1.html">Home</a></li>
+        <li><a href="login.html">Login</a></li>
+      </ul>
+    </nav>
+  </header>
+<body>
+    <form class="container" onsubmit="login()">
+        <h1>LOGIN PAGE</h1>
+        <input type="text" id="name" placeholder="Enter your name" class="auth-input">
+        <input type="password" id="password" placeholder="Enter your password"class="auth-input">
+        <input type="submit" ,value="LOGIN" class="auth-button">
+    </form>
+    
+</body>
+<script>
+    function login()
+    {
+        let x= document.getElementById("name").value;
+        let a=document.getElementById("password").value;
+        let b="123";
+        if(a==b)
+        {
+            alert("Logged in!!!");
+        }
+        else
+        {
+            alert("Login failed!!!");
+        }
+    }
+</script>
+</html>
