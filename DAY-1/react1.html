@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="react-1.css">
+</head>
+<header>
+    <nav>
+      <ul>
+        <li><a href="react1.html">Home</a></li>
+        <li><a href="login.html">Login</a></li>
+      </ul>
+    </nav>
+  </header>
+<body>
+    <form class="container" onsubmit="register()">
+        <h1>SIGN UP PAGE</h1>
+        <input type="text" id="name" placeholder="Enter your name" class="auth-input">
+
+        <input type="email" id="email" placeholder="Enter your email"class="auth-input">
+
+        <input type="password" id="password" placeholder="Enter your password"class="auth-input">
+        <input type="password" id="confirmpassword" placeholder="Re-enter your password"class="auth-input">
+
+        <input type="number" id="number" placeholder="Enter your number"class="auth-input">
+
+        <input type="date" name="" id="" class="auth-input">
+
+        <input type="number" id="number" placeholder="Enter your age" class="auth-input">
+
+        <input type="submit" value="SUBMIT" class="auth-button">
+    </form>
+    
+</body>
+<script>
+    function register()
+    {
+        let x= document.getElementById("name").value;
+        let a=document.getElementById("password").value;
+        let b=document.getElementById("confirmpassword").value;
+        if(confirm("sure?"))
+        {
+            if(a==b)
+            {
+                alert("Password Matched");
+                alert(x+" welcome to our page");
+            }
+            else
+            {
+                alert("Your password is contradict");
+            }
+        }
+        else
+        {
+            alert("Failed");
+        }
+    }
+</script>
+</html>
