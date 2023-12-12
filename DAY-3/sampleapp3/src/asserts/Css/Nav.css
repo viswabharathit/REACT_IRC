@@ -1,0 +1,72 @@
+/* body {
+        background-image: url('C:\Users\ViswaBharathi\OneDrive\Documents\GitHub\React_IRC\DAY-3\sampleapp3\src\asserts\images\coffee-171653_1920.jpg');
+        background-size:cover ;  
+        background-color: rgba(5, 2, 2, 0.5);
+        
+} */
+header {
+    background-color: #ce2525;
+    position: fixed;
+    width: 100%;
+    height:40px;
+    top:0;
+  }
+ 
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    z-index: 0;
+  }
+  
+  li {
+    margin:10 px;
+  }
+  
+  /* nav {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+   */
+  a:hover {
+    color: #66c2ff;
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  li {
+    margin:  10px;
+  }
+  
+  .navbar{
+    text-decoration: none;
+    color: bisque;
+    font-weight: bold;
+    text-align: left;
+    display: flex;
+    justify-content: right;
+  }
+  
+  
+
+  .nav-right{
+    
+    text-decoration: none;
+    color: bisque;
+    font-weight: bold;
+    text-align: right;
+    display: flex;
+    float: right;
+    justify-content: right;
+  }
+
+  .a:hover {
+    background-color: #2980b9;
+  }

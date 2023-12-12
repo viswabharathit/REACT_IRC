@@ -1,0 +1,49 @@
+/* Add your custom styles here */
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.carousel-caption h3 {
+  color: #fff;
+}
+
+.carousel-caption p {
+  color: #ccc;
+  font-size:bold;
+}
+/* .carousel-control-prev, .carousel-control-next {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 3px;
+} */
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+  background-color: #fff;
+}
+
+/* .carousel-control-prev:hover, .carousel-control-next:hover {
+  background-color: rgba(0, 0, 0, 0.7);
+} */
+.d-block1
+{
+  height: 350px; /* Set the desired height */
+  width: 400px;  /* Set the desired width */
+  object-fit: cover;
+  border-radius: 50%;
+}
+.d-block2
+{
+  height: 350px; /* Set the desired height */
+  width: 400px;  /* Set the desired width */
+  object-fit: cover;
+  border-radius: 50%;
+}
+.d-block3
+{
+  height: 350px; /* Set the desired height */
+  width: 400px;  /* Set the desired width */
+  object-fit: cover;
+  border-radius: 50%;
+}
