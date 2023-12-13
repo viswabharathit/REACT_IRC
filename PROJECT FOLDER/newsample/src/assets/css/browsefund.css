@@ -1,0 +1,53 @@
+.Browseclass {
+    background-image: url("C:/Users/ViswaBharathi/OneDrive/Documents/Newprojectfolder/profol/newsample/src/assets/images/sadchild.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: fixed; /* Added to make position adjustments relative to the container */
+    height: 100vh;
+    width: 100vw; /* Set a minimum height; adjust as needed */
+  }
+  
+  .save,
+  .save1,
+  .save2{
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    z-index: 1;
+    font-size: 1cm;
+    font-family: cursive;
+    font-weight: light;
+    color: rgb(0, 0, 0);
+  }
+  
+  .save1 {
+    margin-top: 17%;
+    font-size: 0.5cm;
+  }
+  
+  .save2 {
+    margin-top: 20%;
+    margin-left: 7%;
+    font-size: 0.5cm;
+  }
+  
+  .button1 {
+    margin-top: 25%;
+    margin-left: 10%;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #062e48;
+    border: none;
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    z-index: 1;
+    font-size: 0.5cm;
+    font-family: cursive;
+    font-weight: light;
+  }
+  
+  /* Additional styles if required */
+  
